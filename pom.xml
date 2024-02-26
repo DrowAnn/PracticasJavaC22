@@ -1,42 +1,17 @@
-package co.com.ps;
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-        import java.util.Scanner;
+    <groupId>co.com.ps</groupId>
+    <artifactId>PracticasJavaC22</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-        public class Main {
-        public static void main(String[] args) {
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-        //        System.out.print("Hola Mundo");
-        //
-        //        int numero = 1;
-        //        double numeroDecimal = 1.25;
-        //        boolean yesNo = true;
-        //        String caracter = "Tons que papi";
-        //
-        //        Integer numeroWrapper = 1;
-        //        Double numeroDecimalWrapper = 1.25;
-        //        Boolean yesNoWrapper = true;
-        //        String caracterWrapper = "Tons que papi";
-        //
-        //        Scanner scanner = new Scanner(System.in);
-        //
-        //        System.out.println("Ingrese su nombre");
-        //        String name = scanner.next();
-        //
-        //        System.out.println(name + " Bienvenido a Java I");
-        //
-        //        System.out.println("Ingrese su edad");
-        //        Integer edad = Integer.valueOf(scanner.next());
-        //
-        //        System.out.println("Tienes " + edad + " años");
-
-        //        EjercicioEnClase2 e = new EjercicioEnClase2();
-        //        e.ponerCasco();
-        //        e.abrocharCasco();
-        //        e.levantarVicera();
-        //        e.quitarCasco();
-
-        //        EjercicioEnClase4 n = new EjercicioEnClase4();
-        //        n.estadoNumero();
-        //        n.descuentoTienda();
-        }
-        }
+</project>
