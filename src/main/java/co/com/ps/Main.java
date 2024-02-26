@@ -28,13 +28,20 @@ public class Main {
 //        Integer edad = Integer.valueOf(scanner.next());
 //
 //        System.out.println("Tienes " + edad + " años");
-
+//
+//
+//        EjercicioEnClase1.main();
+//
 //        EjercicioEnClase2 e = new EjercicioEnClase2();
 //        e.ponerCasco();
 //        e.abrocharCasco();
 //        e.levantarVicera();
 //        e.quitarCasco();
-
+//
+//        EjercicioEnClase3 n = new EjercicioEnClase3();
+//        n.nombresArray();
+//        n.nombresList();
+//
 //        EjercicioEnClase4 n = new EjercicioEnClase4();
 //        n.estadoNumero();
 //        n.descuentoTienda();
