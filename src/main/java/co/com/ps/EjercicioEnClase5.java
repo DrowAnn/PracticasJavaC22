@@ -9,6 +9,7 @@ public class EjercicioEnClase5 {
 
     public void palabrasMasCinco() {
 
+        //Metodo tradicional
         List<String> listaPalabras = Arrays.asList("Java", "Stream", "Ejemplo", "Programacion", "Funcional");
         List<String> listaFiltrada = new ArrayList<>();
 
@@ -18,8 +19,13 @@ public class EjercicioEnClase5 {
             }
         }
 
-        System.out.println("Las palabras con más de 5 letras en el arreglo son:");
+        System.out.println("(Tradicional) Las palabras con más de 5 letras en el arreglo son:");
         listaFiltrada.stream().forEach(System.out::println);
+        System.out.println(" ");
+
+        //Programacion Funcional
+        System.out.println("(Funcional) Las palabras con más de 5 letras en el arreglo son:");
+        listaPalabras.stream().filter(palabra -> palabra.length() > 5).forEach(System.out::println);
 
     }
 
