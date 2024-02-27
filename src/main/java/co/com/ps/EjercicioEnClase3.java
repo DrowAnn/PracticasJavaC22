@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class EjercicioEnClase3 {
 
-    public void nombresArray () {
+    public void nombresArray() {
 
         String nombresEstudiantes[] = new String[3];
         Scanner scanner = new Scanner(System.in);
@@ -26,12 +26,12 @@ public class EjercicioEnClase3 {
 
     }
 
-    public void nombresList () {
+    public void nombresList() {
 
         List<String> nombresEstudiantes = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < 3; i++) {
 
             System.out.println("Digite el nombre del estudiante numero " + (i + 1) + ": ");
             nombresEstudiantes.add(scanner.next());

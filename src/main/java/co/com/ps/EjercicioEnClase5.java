@@ -13,8 +13,8 @@ public class EjercicioEnClase5 {
         List<String> listaPalabras = Arrays.asList("Java", "Stream", "Ejemplo", "Programacion", "Funcional");
         List<String> listaFiltrada = new ArrayList<>();
 
-        for(String palabra : listaPalabras){
-            if(palabra.length() > 5){
+        for (String palabra : listaPalabras) {
+            if (palabra.length() > 5) {
                 listaFiltrada.add(palabra);
             }
         }

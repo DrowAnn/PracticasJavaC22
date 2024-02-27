@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class EjercicioEnClase4 {
 
-    public EjercicioEnClase4(){
+    public EjercicioEnClase4() {
 
     }
 
-    public void estadoNumero(){
+    public void estadoNumero() {
 
         Scanner scanner = new Scanner(System.in);
         Integer num;
@@ -16,19 +16,20 @@ public class EjercicioEnClase4 {
         System.out.println("Digite un numero para saber si es Positivo, Negativo o Cero:");
         num = scanner.nextInt();
 
-        if(num == 0){
+        if (num == 0) {
             System.out.println("El numero es 0");
-        }else if(num > 0){
+        } else if (num > 0) {
             System.out.println("El numero " + num + " es positivo");
-        }else{
+        } else {
             System.out.println("El numero " + num + " es negativo");
-        };
+        }
+        ;
 
         System.out.println(" ");
 
     }
 
-    public void descuentoTienda(){
+    public void descuentoTienda() {
 
         Scanner scanner = new Scanner(System.in);
         Integer precioProducto, tipoProducto;
@@ -43,7 +44,7 @@ public class EjercicioEnClase4 {
         System.out.println("Digite el precio del producto:");
         precioProducto = scanner.nextInt();
 
-        if(tipoProducto == 1){
+        if (tipoProducto == 1) {
             valorFinal = precioProducto * 0.9;
             valorDescuento = precioProducto * 0.1;
         } else if (tipoProducto == 2) {
@@ -52,7 +53,7 @@ public class EjercicioEnClase4 {
         } else if (tipoProducto == 3) {
             valorFinal = precioProducto * 0.98;
             valorDescuento = precioProducto * 0.02;
-        }else {
+        } else {
             System.out.println("Tipo de producto no valido");
         }
 

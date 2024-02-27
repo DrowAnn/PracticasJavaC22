@@ -23,7 +23,7 @@ public class EjercicioEnClase1 {
         System.out.println("Digite el tercer numero:");
         num3 = scanner.nextInt();
 
-        prom = (Double.valueOf (num1 + num2 + num3)) / 3;
+        prom = (Double.valueOf(num1 + num2 + num3)) / 3;
 
         System.out.println(nombre + " el promedio de los numeros es: " + prom);
 
