@@ -42,8 +42,12 @@ public class Main {
 //        n.nombresArray();
 //        n.nombresList();
 //
-        EjercicioEnClase4 n = new EjercicioEnClase4();
-        n.estadoNumero();
-        n.descuentoTienda();
+//        EjercicioEnClase4 n = new EjercicioEnClase4();
+//        n.estadoNumero();
+//        n.descuentoTienda();
+
+        EjercicioEnClase5 n = new EjercicioEnClase5();
+        n.palabrasMasCinco();
+
     }
 }

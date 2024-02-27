@@ -5,9 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-//Crear un ingreso universitario. Listas.
-//Debe solitar 3 nombre de estudiantes y debe guardarse en una estructura de datos, llamese arreglo o lista
-// al final debe imprimir el nombre de los estudiantes
 public class EjercicioEnClase3 {
 
     public void nombresArray () {
